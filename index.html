@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply-box">
+            <h1>Job Application
+                <span class="title-small">(web)</span>
+            </h1>
+            <form action="">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="first name">First Name<span class="req">*</span></label>
+                        <select name="first name" id="file name" required>
+                            <option value="choose one">Choose one </option>
+                            <option value="mr.">Mr.</option>
+                            <option value="ms.">Ms.</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label for="last name">Last Name<span class="req">*</span></label>
+                        <input id="last-name" placeholder="Enter Last Name" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="gender">Gender<span class="req">*</span></label>
+                        <select name="gender" id="gender" required>
+                            <option value="select">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email<span class="req">*</span></label>
+                        <input id="email" name="email" placeholder="Enter Email" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="mobile no">Mobile No.<span class="req">*</span></label>
+                        <input id="mobile-no" placeholder="Enter Mobile Number" required />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="id-name">ID Name<span class="req">*</span></label>
+                        <select name="id-name" id="id-name" required>
+                            <option value="select">Select</option>
+                            <option value="aadhar card">Aadhar Card</option>
+                            <option value="pan card">Pan Card</option>
+                            <option value="student id">Student ID</option>
+                            <option value="driving license">Driving License</option>
+                            <option value="passport">Passport</option>
+                            <option value="ration card">Ration Card</option>
+                        </select>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="whatsapp no">Whatsapp No.<span class="req">*</span></label>
+                        <input id="whatsapp" placeholder="Enter Whatsapp Number" required />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="job-role">Job Role <span class="req">*</span></label>
+                        <select id="job-role" name="job-role" required>
+                            <option value="">Select Job Role</option>
+                            <option value="frontend">Frontend Developper</option>
+                            <option value="backend">Backend Developper</option>
+                            <option value="full-stack">Full Stack Developper</option>
+                            <option value="ui-ux">UI UX Designer</option>
+                        </select>
+
+                    </div>
+
+                    <div class="textarea-control">
+                        <label for="address">Address<span class="req">*</span></label>
+                        <textarea name="address" id="address" rows="4" cols="50" placeholder="Enter Address" required>
+                    </textarea>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="city">City<span class="req">*</span></label>
+                        <input id="city" name="city" placeholder="Enter City Name" required />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="pincode">Pincode</label>
+                        <input id="pincode" name="pincode" type="number" placeholder="Enter Pincode Number" />
+                    </div>
+                    <div class="form-control">
+                        <label for="date">Date<span class="req">*</span></label>
+                        <input value="1920-01-10" type="date" id="date" name="date" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="upload">Upload Your CV<span class="req">*</span></label>
+                        <input id="upload" name="upload" type="file" required />
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button type="submit">Apply Now </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
